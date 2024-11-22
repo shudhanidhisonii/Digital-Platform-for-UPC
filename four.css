@@ -1,0 +1,94 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("Green\ and\ white\ Sustainability\ modern\ presentation.jpg"); /* Background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+  }
+  
+  /* Main container: holds the form and image */
+  .container {
+    display: flex;
+    justify-content: space-between; /* Space out form and image */
+    align-items: center;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    padding: 0 10%; /* Add padding to the left and right */
+  }
+  
+  /* Form container (Left side) */
+  .form-container {
+    width: 35%; /* Fixed width for the form */
+    background: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Flexbox for form elements */
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Styling for dropdown groups */
+  .dropdown-group {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  /* Styling for dropdown elements */
+  .dropdown {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+  }
+  
+  /* Focus effect on dropdowns */
+  .dropdown:focus {
+    outline: 2px solid #4caf50;
+  }
+  
+  /* Submit button styling */
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #195759;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px; /* Fixed width for the button */
+    margin-top: 20px;
+    align-self: center;
+  }
+  
+  /* Hover effect for the submit button */
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Right-side image styling */
+  .city-image img {
+    width: 55%; /* Image takes the remaining space */
+    height: 100%; /* Ensure the image covers the height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 8px;
+  }
+  .sub{
+    color: white;
+    text-decoration: none;
+  }
